@@ -58,7 +58,7 @@ def get_abs_cursor_pos():
 
 
 class GuiWindow:
-    def __init__(self, width=1020, height=720, title="ModernWindow"):
+    def __init__(self, width=1020, height=720, title="PygameGUI"):
         self.width, self.height = width, height
         self.title = title
 
